@@ -1,13 +1,35 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./assets/imgs/phone-frame.png":
+/***/ "./assets/imgs/app-store.svg":
+/*!***********************************!*\
+  !*** ./assets/imgs/app-store.svg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/app-store-2928664fe1fc6aca88583a6f606d60ba.svg";
+
+/***/ }),
+
+/***/ "./assets/imgs/final.png":
+/*!*******************************!*\
+  !*** ./assets/imgs/final.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/final-347203edf33d9eaa93ecd7402fca1168.png";
+
+/***/ }),
+
+/***/ "./assets/imgs/google-play.png":
 /*!*************************************!*\
-  !*** ./assets/imgs/phone-frame.png ***!
+  !*** ./assets/imgs/google-play.png ***!
   \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/phone-frame-0510e6afba35656b7ed44c5ee6d511a8.png";
+module.exports = "/_next/static/images/google-play-71aba36d186d71ab788190e360f7713e.png";
 
 /***/ }),
 
@@ -34,7 +56,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./theme */ "./components/theme.ts");
 
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/components/hideAppBar.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/components/hideAppBar.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -112,7 +134,7 @@ var HideAppBar = function HideAppBar(props) {
 
   var buttonStyle = {
     fontFamily: _theme__WEBPACK_IMPORTED_MODULE_9__["default"].typography.fontFamily,
-    fontSize: 14,
+    fontSize: 15,
     color: inverted ? "white" : _theme__WEBPACK_IMPORTED_MODULE_9__["default"].palette.primary.main,
     textTransform: "none"
   };
@@ -253,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _hideAppBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hideAppBar */ "./components/hideAppBar.tsx");
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/components/page.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/components/page.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
@@ -299,7 +321,7 @@ var PageComponent = function PageComponent(_ref) {
       lineNumber: 35
     },
     __self: this
-  }, title)), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Conva - " + title)), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -375,7 +397,7 @@ var background = "white"; // Create a theme instance.
 
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
   typography: {
-    fontFamily: ["Saira Stencil One"].join(",")
+    fontFamily: ["Righteous"].join(",")
   },
   palette: {
     primary: {
@@ -46181,10 +46203,10 @@ var index = create();
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Findex.tsx!./":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Findex.tsx ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Findex.tsx!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Findex.tsx ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57019,8 +57041,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/page */ "./components/page.tsx");
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/pages/index.tsx";
+/* harmony import */ var _utils_app_stores__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/app-stores */ "./utils/app-stores.ts");
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2__["createElement"];
+
 
 
 
@@ -57031,7 +57055,17 @@ var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeSty
     topImg: {
       position: "absolute"
     },
-    bottomImg: {}
+    bottomImg: {
+      width: 269.1,
+      height: 532.8
+    },
+    imageIcon: {
+      width: 158.625,
+      height: 47.8125
+    },
+    iconRoot: {
+      textAlign: "center"
+    }
   };
 });
 
@@ -57047,7 +57081,7 @@ var IndexPage = function IndexPage() {
     title: "Home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 32
     },
     __self: this
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grow"], {
@@ -57058,13 +57092,13 @@ var IndexPage = function IndexPage() {
     "in": true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 33
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 34
     },
     __self: this
   }, __jsx("div", {
@@ -57076,7 +57110,7 @@ var IndexPage = function IndexPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 35
     },
     __self: this
   }, __jsx("div", {
@@ -57085,23 +57119,15 @@ var IndexPage = function IndexPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 43
     },
     __self: this
   }, __jsx("img", {
-    src: __webpack_require__(/*! ../assets/imgs/phone-frame.png */ "./assets/imgs/phone-frame.png"),
-    className: classes.topImg,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }), __jsx("img", {
-    src: __webpack_require__(/*! ../assets/imgs/phone-frame.png */ "./assets/imgs/phone-frame.png"),
+    src: __webpack_require__(/*! ../assets/imgs/final.png */ "./assets/imgs/final.png"),
     className: classes.bottomImg,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 44
     },
     __self: this
   }))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Fade"], {
@@ -57109,34 +57135,98 @@ var IndexPage = function IndexPage() {
     "in": phoneLoad,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 51
     },
     __self: this
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx("div", {
     style: {
       textAlign: "center",
-      marginTop: 5
+      marginTop: 20
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 52
     },
     __self: this
-  }, "Coming Soon")))));
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: _utils_app_stores__WEBPACK_IMPORTED_MODULE_4__["AppStoreLink"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Icon"], {
+    classes: {
+      root: classes.iconRoot
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx("img", {
+    className: classes.imageIcon,
+    src: __webpack_require__(/*! ../assets/imgs/app-store.svg */ "./assets/imgs/app-store.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Link"], {
+    href: _utils_app_stores__WEBPACK_IMPORTED_MODULE_4__["GooglePlayLink"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Icon"], {
+    classes: {
+      root: classes.iconRoot
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("img", {
+    className: classes.imageIcon,
+    src: __webpack_require__(/*! ../assets/imgs/google-play.png */ "./assets/imgs/google-play.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
 
 /***/ }),
 
+/***/ "./utils/app-stores.ts":
+/*!*****************************!*\
+  !*** ./utils/app-stores.ts ***!
+  \*****************************/
+/*! exports provided: AppStoreLink, GooglePlayLink */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppStoreLink", function() { return AppStoreLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GooglePlayLink", function() { return GooglePlayLink; });
+var AppStoreLink = "https://apps.apple.com/us/app/conva/id1482978471";
+var GooglePlayLink = "https://play.google.com/store/apps/details?id=app.conva.client";
+
+/***/ }),
+
 /***/ 0:
-/*!****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Findex.tsx ***!
-  \****************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Findex.tsx ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),

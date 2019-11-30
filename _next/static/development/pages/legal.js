@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/components/cardItems.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/components/cardItems.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -133,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./theme */ "./components/theme.ts");
 
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/components/hideAppBar.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/components/hideAppBar.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -211,7 +211,7 @@ var HideAppBar = function HideAppBar(props) {
 
   var buttonStyle = {
     fontFamily: _theme__WEBPACK_IMPORTED_MODULE_9__["default"].typography.fontFamily,
-    fontSize: 14,
+    fontSize: 15,
     color: inverted ? "white" : _theme__WEBPACK_IMPORTED_MODULE_9__["default"].palette.primary.main,
     textTransform: "none"
   };
@@ -352,7 +352,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _hideAppBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hideAppBar */ "./components/hideAppBar.tsx");
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/components/page.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/components/page.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
@@ -398,7 +398,7 @@ var PageComponent = function PageComponent(_ref) {
       lineNumber: 35
     },
     __self: this
-  }, title)), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Conva - " + title)), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -474,7 +474,7 @@ var background = "white"; // Create a theme instance.
 
 var theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
   typography: {
-    fontFamily: ["Saira Stencil One"].join(",")
+    fontFamily: ["Righteous"].join(",")
   },
   palette: {
     primary: {
@@ -46280,10 +46280,10 @@ var index = create();
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Flegal.tsx!./":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Flegal.tsx ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Flegal.tsx!./":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Flegal.tsx ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -57119,7 +57119,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_cardItems__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/cardItems */ "./components/cardItems.tsx");
 /* harmony import */ var _components_page__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/page */ "./components/page.tsx");
-var _jsxFileName = "/Users/afshawnlotfi/Documents/Conva/app.conva.website/pages/legal.tsx";
+var _jsxFileName = "/Users/afshawnlotfi/Desktop/app.conva.website/pages/legal.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2__["createElement"];
 
 
@@ -57217,13 +57217,13 @@ var LegalPage = function LegalPage() {
 /***/ }),
 
 /***/ 2:
-/*!*********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Flegal.tsx ***!
-  \*********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Flegal.tsx ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Flegal.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDocuments%2FConva%2Fapp.conva.website%2Fpages%2Flegal.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Flegal.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flegal&absolutePagePath=%2FUsers%2Fafshawnlotfi%2FDesktop%2Fapp.conva.website%2Fpages%2Flegal.tsx!./");
 
 
 /***/ }),
